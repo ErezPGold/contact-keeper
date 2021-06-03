@@ -1,4 +1,5 @@
-// middleware is a function that has access to request - response cycle.
+// middleware is a function that validate the token and pull out the user id and add it to our request object
+// middleware has access to request - response cycle.
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
